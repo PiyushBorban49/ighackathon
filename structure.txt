@@ -1,0 +1,10 @@
+LearnAI/
+├── app.py                  # Main User Interface (Streamlit)
+├── requirements.txt        # Python dependencies
+├── .env                    # API Keys
+└── processors/             # Logic modules
+    ├── __init__.py         # (Empty file)
+    ├── pdf_parser.py       # Extracts text from PDF
+    ├── llm_engine.py       # Gemini (Script, Code, Quiz)
+    ├── audio_engine.py     # Edge-TTS (Voiceover)
+    └── video_engine.py     # Manim (Animation + Stitching)
